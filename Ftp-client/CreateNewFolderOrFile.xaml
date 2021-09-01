@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ftp_client.CreateNewFolderOrFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ftp_client"
+        mc:Ignorable="d"
+        Title="CreateNewFolderOrFile" Height="120" Width="280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <Label Name="type" Content="Бла бла бла бла" Width="260" Canvas.Left="4"/>
+        <TextBox Name="txtNewFolder" TextWrapping="Wrap" Text="/" Height="23" Width="245" Canvas.Left="10" Canvas.Top="26"/>
+        <Button Name="Ok" Content="ОК" Width="60" Click="Ok_Click" Canvas.Left="130" Canvas.Top="54"/>
+        <Button Name="Cancel" Content="Отмена" Click="Cancel_Click" Canvas.Left="195" Canvas.Top="54" Width="60"/>
+
+    </Canvas>
+</Window>

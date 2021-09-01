@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ftp_client.PCFolder">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAEAIAQAAABAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PCFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.ServerFolder">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAEAIAYAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PCFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.Transfers">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACCgAAAAAkAAAIAAgAAAAAAAQABACAgBQg=</HashCode>
+      <FileName>Transfers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.TaskManager">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACCgAAAAAkAAAIAAgAAAAAAAAABAAAgAAg=</HashCode>
+      <FileName>TaskManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.Connection">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAACAAAEAAAAAAAFAACAAACAACAAAQAAAACEA=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AB4IKEIACCAAKAgACAABAACAYQAAQQgQVDAACQAAEAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ftp_client.Item">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAQAAQAAAAAAAQAAAAAABAA=</HashCode>
+      <FileName>CreateNewFolderOrFile.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ftp_client.CreateNewFolderOrFile" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Ftp_client.CreateNewFolderOrFile.CreateFolder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CreateNewFolderOrFile.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ftp_client.CreateNewFolderOrFile.CreateFile" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CreateNewFolderOrFile.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ftp_client.CreateNewFolderOrFile.CreateFolderOnPC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CreateNewFolderOrFile.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ftp_client.CreateNewFolderOrFile.CreateFileOnPC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CreateNewFolderOrFile.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreateNewFolderOrFile.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
